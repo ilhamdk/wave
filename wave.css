@@ -52,12 +52,22 @@
   background-size: 1000px 120%;
 }
 
+.sectionwave .building{
+  position: absolute;
+  z-index: 999998;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: 1000px 120%;
+}
+
 .sectionwave .wave1.wave1{
-  animation: animatewave 45s linear infinite;
+  animation: animatewave 18s linear infinite;
   z-index: 1000000;
-  opacity: 0.6;
+  opacity: 0.3;
   animation-delay: 0s;
-  bottom: 0;
+  bottom: -60px;
 }
 
 .sectionwave .wave2.wave2{
@@ -65,23 +75,23 @@
   z-index: 999999;
   opacity: 0.5;
   animation-delay: 0s;
-  bottom: 10px;
+  bottom: -55px;
 }
 
 .sectionwave .wave3.wave3{
-  animation: animatewave3 20s linear infinite;
-  z-index: 999998;
-  opacity: 0.4;
+  animation: animatewave3 25s linear infinite;
+  z-index: 999996;
+  opacity: 1;
   animation-delay: -2s;
-  bottom: 15;
+  bottom: -50px;
 }
 
 .sectionwave .wave4.wave4{
   animation: animatewave4 12s linear infinite;
   z-index: 9997;
-  opacity: 0.7;
+  opacity: 1;
   animation-delay: -5s;
-  bottom: 20px;
+  bottom: -60px;
 }
 
 @keyframes animatewave 

@@ -17,9 +17,9 @@
   bottom: 10;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 20%;
   background: url(/awan/Asset1.png);
-  background-size: 1000px 100px;
+  background-size: 1000px 120%;
 }
 
 .sectionwave .wave2{
@@ -27,9 +27,9 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 20%;
   background: url(awan/Asset2.png);
-  background-size: 1000px 100px;
+  background-size: 1000px 120%;
 }
 
 .sectionwave .wave3{
@@ -37,9 +37,9 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 20%;
   background: url(awan/Asset3.png);
-  background-size: 1000px 100px;
+  background-size: 1000px 120%;
 }
 
 .sectionwave .wave4{
@@ -47,9 +47,9 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 20%;
   background: url(awan/Asset4.png);
-  background-size: 1000px 100px;
+  background-size: 1000px 120%;
 }
 
 .sectionwave .wave1.wave1{
@@ -120,7 +120,7 @@
   }
 }
 
-.rocket1 {
+/* .rocket1 {
   width: 250px;
   height: 250px;
   position: relative;
@@ -137,4 +137,4 @@
   50%  {left:200px; top:200px; -webkit-transform: scaleX(-1); transform: scaleX(-1);}
   75%  {left: -100px; top: 250px;}
   100% {left: 200px; top: 200px;}
-}
+} */

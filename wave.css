@@ -55,7 +55,7 @@
 .sectionwave .wave1.wave1{
   animation: animatewave 45s linear infinite;
   z-index: 1000000;
-  opacity: 0.3;
+  opacity: 0.6;
   animation-delay: 0s;
   bottom: 0;
 }
@@ -63,7 +63,7 @@
 .sectionwave .wave2.wave2{
   animation: animatewave2 15s linear infinite;
   z-index: 999999;
-  opacity: 0.2;
+  opacity: 0.5;
   animation-delay: 0s;
   bottom: 10px;
 }
@@ -71,7 +71,7 @@
 .sectionwave .wave3.wave3{
   animation: animatewave3 20s linear infinite;
   z-index: 999998;
-  opacity: 0.2;
+  opacity: 0.4;
   animation-delay: -2s;
   bottom: 15;
 }
@@ -79,7 +79,7 @@
 .sectionwave .wave4.wave4{
   animation: animatewave4 12s linear infinite;
   z-index: 9997;
-  opacity: 0.4;
+  opacity: 0.7;
   animation-delay: -5s;
   bottom: 20px;
 }
@@ -118,4 +118,23 @@
   }100%{
     background-position-x: 1000px;
   }
+}
+
+.rocket1 {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 14s;
+  animation-delay: 0.5s;
+  top: 200px;
+  left: 200px;
+}
+
+@keyframes example {
+  0%   {left:200px; top:200px;}
+  25%  {left:1400px; top:10px;}
+  50%  {left:200px; top:200px; -webkit-transform: scaleX(-1); transform: scaleX(-1);}
+  75%  {left: -100px; top: 250px;}
+  100% {left: 200px; top: 200px;}
 }
